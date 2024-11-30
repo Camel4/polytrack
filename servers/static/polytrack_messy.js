@@ -27804,7 +27804,7 @@ let ghostPos
             };
         const {
             version: dk
-        } = i(147), uk = "https://vps.kodub.com:43273/";
+        } = i(147), uk = "http://54.162.60.191:5000/";
         ok = new WeakMap, lk = new WeakMap;
         const fk = class {
             constructor(e) {
