@@ -27873,7 +27873,7 @@ function deepClone(obj) {
             };
         const {
             version: dk
-        } = i(147), uk = "http://54.162.60.191:5000/";
+        } = i(147), uk = "https://cameronjsnider.com/api/";
         ok = new WeakMap, lk = new WeakMap;
         const fk = class {
             constructor(e) {
