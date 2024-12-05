@@ -26152,7 +26152,7 @@ function deepClone(obj) {
                                     if (!t.isCancelled) {
                                         const img = document.createElement("img");
                                         img.className = "error-image";
-                                        img.src = "polytrunk.png";
+                                        img.src = "polytrack/js/polytrunk.png";
                                         img.alt = "Error: Failed to load leaderboard";
                                         yT(this, lT, "f").appendChild(img);
                                     }
