@@ -26150,12 +26150,13 @@ function deepClone(obj) {
                                 }))
                                 .catch((e => {
                                     if (!t.isCancelled) {
-                                        const e = document.createElement("p");
-                                        e.className = "error-message", e.textContent = yT(this, $S, "f")
-                                            .get("Error: Failed to load leaderboard"), yT(this, lT, "f")
-                                                .appendChild(e)
+                                        const img = document.createElement("img");
+                                        img.className = "error-image";
+                                        img.src = "polytrunk.png";
+                                        img.alt = "Error: Failed to load leaderboard";
+                                        yT(this, lT, "f").appendChild(img);
                                     }
-                                    console.error(e)
+                                    console.error(e);
                                 }))
                                 .finally((() => {
                                     t.isCancelled || yT(this, lT, "f")
