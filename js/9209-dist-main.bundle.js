@@ -28251,7 +28251,7 @@ function deepClone(obj) {
                 return new Map([
                     [jl.ImperialUnitsEnabled, "false"]
                     , [jl.ResetHintEnabled, "true"]
-                    , [jl.GhostCarEnabled, "true"]
+                    , [jl.GhostCarEnabled, "false"]
                     , [jl.CockpitCameraToggle, "true"]
                     , [jl.Language, "en-US"]
                     , [jl.CarShadowQuality, "2048"]
