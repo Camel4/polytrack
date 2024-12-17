@@ -18110,6 +18110,7 @@ function deepClone(obj) {
                         return
                 }
                 console.log(Ff(this, Df, "f")) //LOG CONTROLS CODE HERE
+                console.log("Serialized after recordFrame:", this.serialize()); // Log serialized data after every frame
                 Ff(this, Df, "f")
                     .push({
                         frame: e,
