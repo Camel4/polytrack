@@ -19845,7 +19845,7 @@ function deepClone(obj) {
                 //if (isOdd(posSyncIndex) === false) { // index is even? => ghost car
                     let ghostCar = Ug(this, tg, "f")
                     ghostData.advancedCar = ghostCar
-                    console.log(ghostCar.getSpeedKmh())
+                    //console.log(ghostCar.getSpeedKmh())
 
                     //console.log(firstCar.getSpeedKmh())
                     //console.log(nextCar.getSpeedKmh())
