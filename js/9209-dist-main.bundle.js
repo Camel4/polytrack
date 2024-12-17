@@ -18541,7 +18541,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 5290,
+        "frame": 5300,
         "controls": {
             "up": true,
             "right": true,
