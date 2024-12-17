@@ -19398,7 +19398,7 @@ function deepClone(obj) {
 ];
                 
                 // Now, serialize your custom set of keystrokes
-                const serializedData = serialize(customKeystrokes);
+                const serializedData = serialize2(customKeystrokes);
                 console.log(serializedData);
                 
                 
@@ -19431,7 +19431,7 @@ function deepClone(obj) {
                 console.log(Ff(this, Df, "f"));
                 return Ff(this, Df, "f")
             }
-            serialize(keystrokes) {
+            serialize2(keystrokes) {
                 // Step 1: Create a Uint8Array to hold the serialized data
                 const e = new Uint8Array(Math.ceil(3.5 * keystrokes.length));
             
@@ -19471,31 +19471,31 @@ function deepClone(obj) {
                 t.push(new Uint8Array(e), true);
                 return Uf.encode(t.result);  // Return the final encoded, compressed data
             }
-            // serialize() {
-            //     const e = new Uint8Array(Math.ceil(3.5 * Ff(this, Df, "f")
-            //         .length));
-            //     for (let t = 0; t < Ff(this, Df, "f")
-            //         .length; ++t) {
-            //         const i = Ff(this, Df, "f")[t];
-            //         e[3 * t] = 255 & i.frame, e[3 * t + 1] = i.frame >>> 8 & 255, e[3 * t + 2] = i.frame >>> 16 & 255
-            //     }
-            //     for (let t = 0; t < Ff(this, Df, "f")
-            //         .length; t += 2) {
-            //         const i = Ff(this, Df, "f")[t];
-            //         let n = 0;
-            //         if (n |= i.controls.up ? 1 : 0, n |= (i.controls.right ? 1 : 0) << 1, n |= (i.controls.down ? 1 : 0) << 2, n |= (i.controls.left ? 1 : 0) << 3, t + 1 < Ff(this, Df, "f")
-            //             .length) {
-            //             const e = Ff(this, Df, "f")[t + 1];
-            //             n |= (e.controls.up ? 1 : 0) << 4, n |= (e.controls.right ? 1 : 0) << 5, n |= (e.controls.down ? 1 : 0) << 6, n |= (e.controls.left ? 1 : 0) << 7
-            //         }
-            //         e[3 * Ff(this, Df, "f")
-            //             .length + Math.floor(t / 2)] = n
-            //     }
-            //     const t = new Nf.Deflate({
-            //         level: 9
-            //     });
-            //     return t.push(new Uint8Array(e), !0), Uf.encode(t.result)
-            // }
+            serialize() {
+                const e = new Uint8Array(Math.ceil(3.5 * Ff(this, Df, "f")
+                    .length));
+                for (let t = 0; t < Ff(this, Df, "f")
+                    .length; ++t) {
+                    const i = Ff(this, Df, "f")[t];
+                    e[3 * t] = 255 & i.frame, e[3 * t + 1] = i.frame >>> 8 & 255, e[3 * t + 2] = i.frame >>> 16 & 255
+                }
+                for (let t = 0; t < Ff(this, Df, "f")
+                    .length; t += 2) {
+                    const i = Ff(this, Df, "f")[t];
+                    let n = 0;
+                    if (n |= i.controls.up ? 1 : 0, n |= (i.controls.right ? 1 : 0) << 1, n |= (i.controls.down ? 1 : 0) << 2, n |= (i.controls.left ? 1 : 0) << 3, t + 1 < Ff(this, Df, "f")
+                        .length) {
+                        const e = Ff(this, Df, "f")[t + 1];
+                        n |= (e.controls.up ? 1 : 0) << 4, n |= (e.controls.right ? 1 : 0) << 5, n |= (e.controls.down ? 1 : 0) << 6, n |= (e.controls.left ? 1 : 0) << 7
+                    }
+                    e[3 * Ff(this, Df, "f")
+                        .length + Math.floor(t / 2)] = n
+                }
+                const t = new Nf.Deflate({
+                    level: 9
+                });
+                return t.push(new Uint8Array(e), !0), Uf.encode(t.result)
+            }
             static deserialize(e) {
                 const t = Uf.decode(e);
                 if (null == t)
