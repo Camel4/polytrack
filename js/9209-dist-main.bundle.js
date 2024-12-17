@@ -18109,12 +18109,1299 @@ function deepClone(obj) {
                     if (e.controls.up == t.up && e.controls.right == t.right && e.controls.down == t.down && e.controls.left == t.left)
                         return
                 }
-                console.log(Ff(this, Df, "f")) //LOG CONTROLS CODE HERE
-                console.log("Serialized after recordFrame:", this.serialize()); // Log serialized data after every frame
+                // console.log(Ff(this, Df, "f")) //LOG CONTROLS CODE HERE
+                // console.log("Serialized after recordFrame:", this.serialize()); // Log serialized data after every frame
 
                 
                 let test23 = "eNqFxTtIGwEAgOH_8rCSeDExR82gNjZRMgR6F-99Fx8QQURMQEEHh9ipBTu5CN5QsGAGBaVuDi6FLgEFUwh0EVwE3YwQaEGHDg4BHTI4Wgdd_ZYPqMM5dAssClQF7gXmfOz5uPPh-tnyc-3nQ4D1AM0AiSBekHqQqQ7WOkiHWApxGKIdYiFMJUw7TKILRDIi30XORLIRPkWoRxC6icb4HOMyhtzDjx6icb7E-ROnT2JdoiZx_Ball_IArQEy7xCTqEmag_jfk0pRSLGc5mKI5DCJDLcZyjJ_Zd4oVBR-KWRzzORo5rjP8XWEgxFQ6VdZUdlUaai0VLIaUxrbGj81HjSiOjM6KzpHOg0dycA0WDXYMWgYBE3KJt9MbkwCFosWnsWJxY1F0mbcpmJTtWnZSA7zDhsOpw5tB9dlzeXQ5Z-LlGc-j5fnIc_cKEtjeGN0TuBN8LvAVYHEJH2T1KY5n6Y6y_UscpHlIvUi7SJyiY0StRK7L5T_nn-2sPsK5aOx_7TwCMptexA";
                 console.log("Deserialized after recordFrame:", zf.deserialize(test23).getRecording());
+
+                const customKeystrokes = [
+    {
+        "frame": 0,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 184,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 203,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 271,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 344,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 428,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 496,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 595,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 660,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 751,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 828,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 908,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 991,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 1071,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 1147,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 1240,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 1304,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 1404,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 1464,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 1608,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 1656,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 2596,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 2652,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 2735,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 2804,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 2903,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 2952,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 3060,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 3096,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 3328,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 3368,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 3475,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 3528,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 3628,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 3688,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 3768,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 3841,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4368,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4457,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4563,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4656,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4772,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4880,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4973,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5083,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5148,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5243,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5290,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5811,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5937,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 7776,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 7916,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 7976,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8205,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8244,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8664,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8707,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8995,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 9028,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 9313,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 9676,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": true,
+            "left": false
+        }
+    },
+    {
+        "frame": 9760,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": true,
+            "left": false
+        }
+    },
+    {
+        "frame": 10264,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 10472,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 12384,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 12508,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 12551,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 12680,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 12725,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 12844,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 12876,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13016,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13040,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13184,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13215,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13312,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13341,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13420,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13447,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13524,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13548,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13612,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13640,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13709,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13735,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13816,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13840,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13900,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13932,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14000,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14036,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14100,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14136,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14195,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14224,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14292,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14341,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14432,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14468,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14560,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14596,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14680,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14716,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14784,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14816,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14880,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14912,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14984,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15020,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15084,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15124,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15188,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15235,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15299,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15348,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15420,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15480,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15535,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15588,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15636,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15700,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15740,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15864,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15955,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 16220,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 16252,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 16648,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 16764,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 17595,
+        "controls": {
+            "up": false,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 17621,
+        "controls": {
+            "up": false,
+            "right": true,
+            "down": true,
+            "left": false
+        }
+    },
+    {
+        "frame": 17688,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": true,
+            "left": false
+        }
+    },
+    {
+        "frame": 17692,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 19124,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 19145,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 20170,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 20272,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 20321,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 20408,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 20468,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 20528,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 20611,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 20660,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    }
+];
+                
+                // Now, serialize your custom set of keystrokes
+                const serializedData = serialize(customKeystrokes);
+                console.log(serializedData);
+                
+                
                 Ff(this, Df, "f")
                     .push({
                         frame: e,
@@ -18144,31 +19431,71 @@ function deepClone(obj) {
                 console.log(Ff(this, Df, "f"));
                 return Ff(this, Df, "f")
             }
-            serialize() {
-                const e = new Uint8Array(Math.ceil(3.5 * Ff(this, Df, "f")
-                    .length));
-                for (let t = 0; t < Ff(this, Df, "f")
-                    .length; ++t) {
-                    const i = Ff(this, Df, "f")[t];
-                    e[3 * t] = 255 & i.frame, e[3 * t + 1] = i.frame >>> 8 & 255, e[3 * t + 2] = i.frame >>> 16 & 255
+            serialize(keystrokes) {
+                // Step 1: Create a Uint8Array to hold the serialized data
+                const e = new Uint8Array(Math.ceil(3.5 * keystrokes.length));
+            
+                // Step 2: Populate the array with frame data
+                for (let t = 0; t < keystrokes.length; ++t) {
+                    const i = keystrokes[t];  // Get the current keystroke object
+                    e[3 * t] = 255 & i.frame;  // Store the low byte of the frame
+                    e[3 * t + 1] = i.frame >>> 8 & 255;  // Store the middle byte of the frame
+                    e[3 * t + 2] = i.frame >>> 16 & 255;  // Store the high byte of the frame
                 }
-                for (let t = 0; t < Ff(this, Df, "f")
-                    .length; t += 2) {
-                    const i = Ff(this, Df, "f")[t];
+            
+                // Step 3: Populate the array with control data (up, right, down, left)
+                for (let t = 0; t < keystrokes.length; t += 2) {
+                    const i = keystrokes[t];
                     let n = 0;
-                    if (n |= i.controls.up ? 1 : 0, n |= (i.controls.right ? 1 : 0) << 1, n |= (i.controls.down ? 1 : 0) << 2, n |= (i.controls.left ? 1 : 0) << 3, t + 1 < Ff(this, Df, "f")
-                        .length) {
-                        const e = Ff(this, Df, "f")[t + 1];
-                        n |= (e.controls.up ? 1 : 0) << 4, n |= (e.controls.right ? 1 : 0) << 5, n |= (e.controls.down ? 1 : 0) << 6, n |= (e.controls.left ? 1 : 0) << 7
+                    // Store the controls in a bit-packed format
+                    n |= i.controls.up ? 1 : 0;
+                    n |= (i.controls.right ? 1 : 0) << 1;
+                    n |= (i.controls.down ? 1 : 0) << 2;
+                    n |= (i.controls.left ? 1 : 0) << 3;
+            
+                    // If there's a next keystroke, include its controls as well
+                    if (t + 1 < keystrokes.length) {
+                        const e = keystrokes[t + 1];
+                        n |= (e.controls.up ? 1 : 0) << 4;
+                        n |= (e.controls.right ? 1 : 0) << 5;
+                        n |= (e.controls.down ? 1 : 0) << 6;
+                        n |= (e.controls.left ? 1 : 0) << 7;
                     }
-                    e[3 * Ff(this, Df, "f")
-                        .length + Math.floor(t / 2)] = n
+            
+                    // Store the control byte
+                    e[3 * keystrokes.length + Math.floor(t / 2)] = n;
                 }
-                const t = new Nf.Deflate({
-                    level: 9
-                });
-                return t.push(new Uint8Array(e), !0), Uf.encode(t.result)
+            
+                // Step 4: Compress the data with Deflate and encode it
+                const t = new Nf.Deflate({ level: 9 });
+                t.push(new Uint8Array(e), true);
+                return Uf.encode(t.result);  // Return the final encoded, compressed data
             }
+            // serialize() {
+            //     const e = new Uint8Array(Math.ceil(3.5 * Ff(this, Df, "f")
+            //         .length));
+            //     for (let t = 0; t < Ff(this, Df, "f")
+            //         .length; ++t) {
+            //         const i = Ff(this, Df, "f")[t];
+            //         e[3 * t] = 255 & i.frame, e[3 * t + 1] = i.frame >>> 8 & 255, e[3 * t + 2] = i.frame >>> 16 & 255
+            //     }
+            //     for (let t = 0; t < Ff(this, Df, "f")
+            //         .length; t += 2) {
+            //         const i = Ff(this, Df, "f")[t];
+            //         let n = 0;
+            //         if (n |= i.controls.up ? 1 : 0, n |= (i.controls.right ? 1 : 0) << 1, n |= (i.controls.down ? 1 : 0) << 2, n |= (i.controls.left ? 1 : 0) << 3, t + 1 < Ff(this, Df, "f")
+            //             .length) {
+            //             const e = Ff(this, Df, "f")[t + 1];
+            //             n |= (e.controls.up ? 1 : 0) << 4, n |= (e.controls.right ? 1 : 0) << 5, n |= (e.controls.down ? 1 : 0) << 6, n |= (e.controls.left ? 1 : 0) << 7
+            //         }
+            //         e[3 * Ff(this, Df, "f")
+            //             .length + Math.floor(t / 2)] = n
+            //     }
+            //     const t = new Nf.Deflate({
+            //         level: 9
+            //     });
+            //     return t.push(new Uint8Array(e), !0), Uf.encode(t.result)
+            // }
             static deserialize(e) {
                 const t = Uf.decode(e);
                 if (null == t)
