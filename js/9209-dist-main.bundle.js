@@ -19431,7 +19431,7 @@ function deepClone(obj) {
                 console.log(Ff(this, Df, "f"));
                 return Ff(this, Df, "f")
             }
-            serialize2(keystrokes) {
+            static serialize2(keystrokes) {
                 // Step 1: Create a Uint8Array to hold the serialized data
                 const e = new Uint8Array(Math.ceil(3.5 * keystrokes.length));
             
