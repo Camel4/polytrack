@@ -18127,7 +18127,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 168,
+        "frame": 186,
         "controls": {
             "up": true,
             "right": false,
@@ -18136,7 +18136,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 528,
+        "frame": 202,
         "controls": {
             "up": true,
             "right": false,
@@ -18145,25 +18145,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 768,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": true
-        }
-    },
-    {
-        "frame": 856,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 1424,
+        "frame": 275,
         "controls": {
             "up": true,
             "right": false,
@@ -18172,7 +18154,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 1484,
+        "frame": 342,
         "controls": {
             "up": true,
             "right": false,
@@ -18181,205 +18163,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 2548,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 2600,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 4664,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 4764,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 4841,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 4992,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 5048,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 5152,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 5401,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 7100,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 7132,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 7300,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 7356,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 7457,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 7528,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 7733,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 7792,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 7848,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 8016,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 8112,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 8384,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 8472,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 8688,
+        "frame": 427,
         "controls": {
             "up": true,
             "right": false,
@@ -18388,7 +18172,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 8769,
+        "frame": 496,
         "controls": {
             "up": true,
             "right": false,
@@ -18397,7 +18181,133 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 9161,
+        "frame": 599,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 658,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 750,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 825,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 908,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 992,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 1079,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 1146,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 1238,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 1303,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 1404,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 1463,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 1609,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 1653,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 2597,
         "controls": {
             "up": true,
             "right": true,
@@ -18406,7 +18316,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 9244,
+        "frame": 2650,
         "controls": {
             "up": true,
             "right": false,
@@ -18415,7 +18325,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 9529,
+        "frame": 2735,
         "controls": {
             "up": true,
             "right": true,
@@ -18424,7 +18334,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 9876,
+        "frame": 2804,
         "controls": {
             "up": true,
             "right": false,
@@ -18433,7 +18343,43 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 10617,
+        "frame": 2903,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 2952,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 3060,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 3096,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 3328,
         "controls": {
             "up": true,
             "right": false,
@@ -18442,7 +18388,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 10973,
+        "frame": 3368,
         "controls": {
             "up": true,
             "right": false,
@@ -18451,7 +18397,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 11160,
+        "frame": 3475,
         "controls": {
             "up": true,
             "right": false,
@@ -18460,7 +18406,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 11344,
+        "frame": 3528,
         "controls": {
             "up": true,
             "right": false,
@@ -18469,7 +18415,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 11440,
+        "frame": 3628,
         "controls": {
             "up": true,
             "right": false,
@@ -18478,7 +18424,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 11880,
+        "frame": 3688,
         "controls": {
             "up": true,
             "right": false,
@@ -18487,7 +18433,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 12000,
+        "frame": 3768,
         "controls": {
             "up": true,
             "right": false,
@@ -18496,7 +18442,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 12152,
+        "frame": 3841,
         "controls": {
             "up": true,
             "right": false,
@@ -18505,7 +18451,241 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 12244,
+        "frame": 4368,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4457,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4563,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4656,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4772,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4880,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 4973,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5083,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5148,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5243,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5296,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5811,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 5937,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 7776,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 7916,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 7976,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8205,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8244,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8664,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8707,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 8995,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 9028,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 9313,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 9670,
+        "controls": {
+            "up": true,
+            "right": true,
+            "down": true,
+            "left": false
+        }
+    },
+    {
+        "frame": 9760,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": true,
+            "left": false
+        }
+    },
+    {
+        "frame": 10264,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 10472,
         "controls": {
             "up": true,
             "right": false,
@@ -18514,7 +18694,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 12864,
+        "frame": 12384,
         "controls": {
             "up": true,
             "right": false,
@@ -18523,7 +18703,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 14577,
+        "frame": 12508,
         "controls": {
             "up": true,
             "right": false,
@@ -18532,7 +18712,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 14665,
+        "frame": 12551,
         "controls": {
             "up": true,
             "right": false,
@@ -18541,7 +18721,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 14760,
+        "frame": 12680,
         "controls": {
             "up": true,
             "right": false,
@@ -18550,7 +18730,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 14828,
+        "frame": 12725,
         "controls": {
             "up": true,
             "right": false,
@@ -18559,7 +18739,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 14957,
+        "frame": 12844,
         "controls": {
             "up": true,
             "right": false,
@@ -18568,7 +18748,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 15024,
+        "frame": 12876,
         "controls": {
             "up": true,
             "right": false,
@@ -18577,7 +18757,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 15172,
+        "frame": 13016,
         "controls": {
             "up": true,
             "right": false,
@@ -18586,12 +18766,381 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 15220,
+        "frame": 13040,
         "controls": {
             "up": true,
             "right": false,
             "down": false,
             "left": false
+        }
+    },
+    {
+        "frame": 13184,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13215,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13312,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13341,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13420,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13447,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13524,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13548,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13612,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13640,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13709,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13735,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13816,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13840,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 13900,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 13932,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14000,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14036,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14100,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14136,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14195,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14224,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14292,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14341,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14432,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14468,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14560,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14596,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14680,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14716,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14784,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14816,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14880,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 14912,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 14984,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15020,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15084,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15124,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15188,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 15235,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 15299,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
         }
     },
     {
@@ -18600,20 +19149,11 @@ function deepClone(obj) {
             "up": true,
             "right": false,
             "down": false,
-            "left": true
-        }
-    },
-    {
-        "frame": 15416,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
             "left": false
         }
     },
     {
-        "frame": 15532,
+        "frame": 15420,
         "controls": {
             "up": true,
             "right": false,
@@ -18622,7 +19162,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 15592,
+        "frame": 15480,
         "controls": {
             "up": true,
             "right": false,
@@ -18631,7 +19171,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 15712,
+        "frame": 15535,
         "controls": {
             "up": true,
             "right": false,
@@ -18640,7 +19180,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 15797,
+        "frame": 15588,
         "controls": {
             "up": true,
             "right": false,
@@ -18649,7 +19189,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 15908,
+        "frame": 15636,
         "controls": {
             "up": true,
             "right": false,
@@ -18658,7 +19198,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 15996,
+        "frame": 15700,
         "controls": {
             "up": true,
             "right": false,
@@ -18667,7 +19207,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 16108,
+        "frame": 15740,
         "controls": {
             "up": true,
             "right": false,
@@ -18676,7 +19216,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 16208,
+        "frame": 15864,
         "controls": {
             "up": true,
             "right": false,
@@ -18685,7 +19225,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 16300,
+        "frame": 15955,
         "controls": {
             "up": true,
             "right": false,
@@ -18694,7 +19234,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 16880,
+        "frame": 16220,
         "controls": {
             "up": true,
             "right": false,
@@ -18703,7 +19243,25 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 17008,
+        "frame": 16252,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 16648,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 16764,
         "controls": {
             "up": true,
             "right": true,
@@ -18712,7 +19270,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 17204,
+        "frame": 17595,
         "controls": {
             "up": false,
             "right": true,
@@ -18721,7 +19279,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 17696,
+        "frame": 17621,
         "controls": {
             "up": false,
             "right": true,
@@ -18730,34 +19288,16 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 17845,
-        "controls": {
-            "up": false,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 17920,
+        "frame": 17688,
         "controls": {
             "up": true,
             "right": true,
-            "down": false,
+            "down": true,
             "left": false
         }
     },
     {
-        "frame": 18188,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 18284,
+        "frame": 17692,
         "controls": {
             "up": true,
             "right": true,
@@ -18766,16 +19306,16 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 18849,
+        "frame": 19124,
         "controls": {
             "up": true,
-            "right": false,
+            "right": true,
             "down": false,
-            "left": false
+            "left": true
         }
     },
     {
-        "frame": 19447,
+        "frame": 19142,
         "controls": {
             "up": true,
             "right": false,
@@ -18784,7 +19324,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 19648,
+        "frame": 20140,
         "controls": {
             "up": true,
             "right": false,
@@ -18793,7 +19333,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 19725,
+        "frame": 20191,
         "controls": {
             "up": true,
             "right": false,
@@ -18802,7 +19342,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 19868,
+        "frame": 20265,
         "controls": {
             "up": true,
             "right": false,
@@ -18811,7 +19351,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 20197,
+        "frame": 20321,
         "controls": {
             "up": true,
             "right": false,
@@ -18820,7 +19360,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 20276,
+        "frame": 20408,
         "controls": {
             "up": true,
             "right": false,
@@ -18829,7 +19369,7 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 20536,
+        "frame": 20468,
         "controls": {
             "up": true,
             "right": false,
@@ -18838,7 +19378,25 @@ function deepClone(obj) {
         }
     },
     {
-        "frame": 20720,
+        "frame": 20528,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": false
+        }
+    },
+    {
+        "frame": 20611,
+        "controls": {
+            "up": true,
+            "right": false,
+            "down": false,
+            "left": true
+        }
+    },
+    {
+        "frame": 20660,
         "controls": {
             "up": true,
             "right": false,
