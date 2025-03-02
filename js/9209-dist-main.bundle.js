@@ -18117,7 +18117,6 @@ function deepClone(obj) {
                 console.log("Deserialized after recordFrame:", zf.deserialize(test23).getRecording());
 
                 const customKeystrokes = [
-    [
     {
         "frame": 0,
         "controls": {
@@ -18163,7 +18162,6 @@ function deepClone(obj) {
             "left": false
         }
     }
-]
 ];
                 
                 // Now, serialize your custom set of keystrokes
