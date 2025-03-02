@@ -18113,7 +18113,7 @@ function deepClone(obj) {
                 // console.log("Serialized after recordFrame:", this.serialize()); // Log serialized data after every frame
 
                 
-                let test23 = "eNqFxTtIGwEAgOH_8rCSeDExR82gNjZRMgR6F-99Fx8QQURMQEEHh9ipBTu5CN5QsGAGBaVuDi6FLgEFUwh0EVwE3YwQaEGHDg4BHTI4Wgdd_ZYPqMM5dAssClQF7gXmfOz5uPPh-tnyc-3nQ4D1AM0AiSBekHqQqQ7WOkiHWApxGKIdYiFMJUw7TKILRDIi30XORLIRPkWoRxC6icb4HOMyhtzDjx6icb7E-ROnT2JdoiZx_Ball_IArQEy7xCTqEmag_jfk0pRSLGc5mKI5DCJDLcZyjJ_Zd4oVBR-KWRzzORo5rjP8XWEgxFQ6VdZUdlUaai0VLIaUxrbGj81HjSiOjM6KzpHOg0dycA0WDXYMWgYBE3KJt9MbkwCFosWnsWJxY1F0mbcpmJTtWnZSA7zDhsOpw5tB9dlzeXQ5Z-LlGc-j5fnIc_cKEtjeGN0TuBN8LvAVYHEJH2T1KY5n6Y6y_UscpHlIvUi7SJyiY0StRK7L5T_nn-2sPsK5aOx_7TwCMptexA";
+                let test23 = "eNpjYGBYL8JwRoThphoDrzrDRENGACHPA5o";
                 console.log("Deserialized after recordFrame:", zf.deserialize(test23).getRecording());
 
                 const customKeystrokes = [
