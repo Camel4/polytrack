@@ -18143,24 +18143,6 @@ function deepClone(obj) {
             "down": false,
             "left": false
         }
-    },
-    {
-        "frame": 9945,
-        "controls": {
-            "up": true,
-            "right": true,
-            "down": false,
-            "left": false
-        }
-    },
-    {
-        "frame": 9987,
-        "controls": {
-            "up": true,
-            "right": false,
-            "down": false,
-            "left": false
-        }
     }
 ];
                 
